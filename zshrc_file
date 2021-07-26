@@ -1,0 +1,26 @@
+# General Bash
+
+## Config File
+alias visrc='vi ~/.zshrc'
+alias src='source ~/.zshrc'
+
+## Listing
+alias ll='ls -lah'
+
+# Git
+
+# Github Cli
+
+# Docker
+alias d='docker'
+alias dps='docker ps'
+
+# Docker Compose
+alias dcdown='docker-compose down'
+alias dcbuild='docker-compose build'
+alias dcup='docker-compose up'
+alias dcc='docker-compose down && docker-compose build && docker-compose up'
+
+# Kubernetes
+
+alias kgp='kubectl get pods'
